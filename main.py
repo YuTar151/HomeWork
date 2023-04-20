@@ -1,16 +1,8 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+1. Створіть дискримінатор який має декілька шарів зі зменшенням розмірності зображення і використовує згортувальні та пулінгові шари.
+Приймає на вхід зображення цифр MNIST та визначає, чи є це реальне зображення чи згенероване генератором class Generator.
+Використовуючи взаємодію генератора та дискримінатора з використанням функції втрат GAN (adversarial loss) навчіть моделі генерувати нові зображення цифр MNIST
+2. Після навчання, виведіть кілька згенерованих зображень та порівняйте їх з Оригінальними зображеннями з набору даних MNIST.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+"""
